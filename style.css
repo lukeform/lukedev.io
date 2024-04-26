@@ -1,0 +1,150 @@
+
+body{
+
+    margin: 0px;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+a{
+
+    text-decoration: none;
+    color: beige;
+
+}
+.nav{
+
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    border-bottom: white 3px solid;
+    
+    
+    
+}
+
+
+.header{
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerTitle1{
+
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.aboutMe{
+
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.aboutMeText{
+
+    width: 500px;
+    border: white 3px solid;
+    padding: 25px;
+
+}
+.imageOfMe{
+
+    height: 400px;
+    width: auto;
+}
+
+.myProjects{
+
+    background-color: rgb(0, 255, 76);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projectCard1, .projectCard2, .projectCard3{
+
+    border: black 3px solid;
+    background-color: white;
+    box-shadow: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    font-size: 35px;
+}
+.projectCard1:hover, .projectCard2:hover, .projectCard3:hover{
+
+    background-color: black;
+    color: beige;
+    transform: translate(1px, 10%);
+
+}
+
+.contactMe{
+
+    background-color: rgb(230, 141, 8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+.contactFormTitle{
+
+    font-family: "Jersey 15", sans-serif;
+    font-size: 160px;
+
+}
+
+.myEmail{
+
+    font-family: "Jersey 15", sans-serif;
+    font-size: 80px;
+}
+.footer{
+
+    background-color: black;
+    color: beige;
+    font-family: "Jersey 15", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
