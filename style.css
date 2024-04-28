@@ -71,6 +71,7 @@ a{
     border: white 3px solid;
     padding: 25px;
     font-size: large;
+    background-color: black;
 
 }
 .imageOfMe{
@@ -91,10 +92,12 @@ a{
     flex-wrap: wrap;
 }
 
+
+
 .projectCard1, .projectCard2, .projectCard3{
 
-    border: black 3px solid;
-    background-color: white;
+    border: beige 3px solid;
+    background-color: rgb(0, 0, 0);
     box-shadow: 10px 10px;
     display: flex;
     justify-content: center;
@@ -102,10 +105,14 @@ a{
     height: 300px;
     width: 300px;
     font-size: 35px;
+    color: beige;
 }
 .projectCard1:hover, .projectCard2:hover, .projectCard3:hover{
 
-    background-color: rgb(202, 15, 193);
+    /* background-color: rgb(15, 202, 202); */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
     color: beige;
     transform: translate(1px, 10%);
 
@@ -173,7 +180,18 @@ a{
     
 }
 
+.contactContent:hover{
 
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+.footer:hover{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
 
 
 
