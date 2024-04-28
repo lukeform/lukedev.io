@@ -12,6 +12,7 @@ a{
     color: beige;
 
 }
+
 .nav{
 
     position: sticky;
@@ -25,6 +26,7 @@ a{
     
     
 }
+
 
 
 .header{
@@ -57,6 +59,7 @@ a{
     justify-content: center;
     gap: 200px;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -75,12 +78,13 @@ a{
 
 .myProjects{
 
-    background-color: rgb(0, 255, 76);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .projectCard1, .projectCard2, .projectCard3{
@@ -97,7 +101,7 @@ a{
 }
 .projectCard1:hover, .projectCard2:hover, .projectCard3:hover{
 
-    background-color: black;
+    background-color: rgb(202, 15, 193);
     color: beige;
     transform: translate(1px, 10%);
 
@@ -105,19 +109,21 @@ a{
 
 .contactMe{
 
-    background-color: rgb(230, 141, 8);
-    display: flex;
+    
+    display: flex; 
+    position: relative;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw;  */
 
 }
 .contactFormTitle{
 
     font-family: "Jersey 15", sans-serif;
     font-size: 160px;
+    text-align: center;
 
 }
 
@@ -125,6 +131,7 @@ a{
 
     font-family: "Jersey 15", sans-serif;
     font-size: 80px;
+    text-align: center;
 }
 .footer{
 
@@ -135,6 +142,36 @@ a{
     justify-content: center;
     font-size: large;
 }
+.row{
+
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    align-items: center;
+
+}
+.contactContent{
+
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 30%;
+    background-color: black;
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
 
 @keyframes gradient {
     0% {
