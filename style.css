@@ -40,6 +40,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: white 3px solid;
 }
 .headerTitle1{
 
@@ -60,6 +61,7 @@ a{
     gap: 200px;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: white 3px solid;
 
 }
 
@@ -68,12 +70,14 @@ a{
     width: 500px;
     border: white 3px solid;
     padding: 25px;
+    font-size: large;
 
 }
 .imageOfMe{
 
-    height: 400px;
-    width: auto;
+    /* height: 400px;
+    width: auto; */
+    border: white 3px solid;
 }
 
 .myProjects{
